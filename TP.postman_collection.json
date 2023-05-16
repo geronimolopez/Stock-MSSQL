@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "81f8b9fc-1773-4e91-80c1-76e93074cd2b",
+		"name": "TP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27329413"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3002/api/categories/",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGVjayI6dHJ1ZSwiaWF0IjoxNjg0MjYwOTE3LCJleHAiOjE2ODQyNjIzNTd9.FMZclJIkdCE0c7aKOtLj9rOrR_-VvRLrezCRHP_7SKs",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "access-token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"description\": \"Juegos\",\r\n\"enabled\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3002/api/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3002/api/categories/all/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGVjayI6dHJ1ZSwiaWF0IjoxNjg0MjYxMDcxLCJleHAiOjE2ODQyNjI1MTF9.gW_Jc70BzdHg9dLGh61pstshWEvnwMScEWCpt1rgDrg",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "access-token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3002/api/categories/all/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"categories",
+						"all",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3002/api/categories/all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGVjayI6dHJ1ZSwiaWF0IjoxNjg0MjYxMDcxLCJleHAiOjE2ODQyNjI1MTF9.gW_Jc70BzdHg9dLGh61pstshWEvnwMScEWCpt1rgDrg",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "access-token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3002/api/categories/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"categories",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
